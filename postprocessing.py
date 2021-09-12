@@ -4,9 +4,6 @@ from feedgen.feed import FeedGenerator
 from datetime import datetime, timezone
 
 # Normal GitHub Pages URL
-# ghPagesURL = "https://conoro.github.io/tiktok-rss-flat/"
-
-# Custom Domain
 ghPagesURL = "https://pukku.github.io/tiktok-rss-flat/"
 
 api = TikTokApi.get_instance()
