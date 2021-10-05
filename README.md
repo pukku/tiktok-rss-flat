@@ -5,10 +5,11 @@
 * This uses the unoffical [TikTokApi Python library](https://github.com/davidteather/TikTok-Api) to extract information about user videos from TikTok as JSON and generate RSS feeds for each user you are interested in.
 
 * To get your own instance running
-    * Fork this repo 
+    * Fork this repo
     * Enable GitHub Pages for your new repo
     * Change the `ghPagesURL` in postprocessing.py from "https://conoro.github.io/tiktok-rss-flat/" to your URL
     * Add the TikTok usernames that you like to subscriptions.csv
+    * Make sure to enable Actions in the Actions tab
 
 * It's set to run once per hour and generates one RSS XML file per user in the rss output directory.
 
